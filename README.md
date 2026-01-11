@@ -12,7 +12,7 @@ Then calculates a normalized score and recommends the best option.
 
 ---
 
-## 🚀 Features
+Features
 
 - Object-Oriented Design (OOP)
 - Multiple decision comparison
@@ -23,12 +23,12 @@ Then calculates a normalized score and recommends the best option.
 
 ---
 
-## 🛠️ Technologies Used
+Technologies Used
 
 - Python 3.x
 - Standard Python libraries only (no external dependencies)
 
----
 
-## 📂 Project Structure
+
+
 
