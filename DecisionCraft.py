@@ -72,7 +72,7 @@ class DecisionEngine:
 
         best = self.best_option()
         print(" Recommended Decision:")
-        print(f"👉 {best.name} (Best overall balance of benefit and risk)")
+        print(f" {best.name} (Best overall balance of benefit and risk)")
 
 
 class InputHandler:
@@ -95,7 +95,7 @@ class InputHandler:
 
 def run_decision_craft():
     engine = DecisionEngine()
-    print("🧠 Welcome to DecisionCraft – Personal Decision Scoring Engine\n")
+    print(" Welcome to DecisionCraft – Personal Decision Scoring Engine\n")
 
     while True:
         name = input("Option name: ")
@@ -114,7 +114,7 @@ def run_decision_craft():
     if engine.has_enough_options():
         engine.display_results()
     else:
-        print("\n⚠️ Add at least two options to make a comparison.")
+        print("\n Add at least two options to make a comparison.")
 
 
 if __name__ == "__main__":
